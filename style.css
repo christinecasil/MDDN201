@@ -1,0 +1,109 @@
+html, body {
+	background-color: #FFFFFF;
+	height: 100%;
+	margin: 0;
+}
+#header{ /*this positions all my header images*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-width: 1000px;
+}
+
+#header.image{
+  background-image: url("img/header-image.jpg");
+  height: 100%;
+}
+
+#header.image1{
+  background-image: url("img/bus_background.jpg");
+  height: 100%;
+}
+
+#header.image2{
+  background-image: url("img/phone_background.jpg");
+  height: 100%;
+}
+
+#header.image3{
+  background-image: url("img/water_background.jpg");
+  height: 100%;
+}
+
+#header-text { /*this is for the text that is on top of the header images*/
+  text-align: center; /*this code centres the text into position*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Cutive Mono";
+  min-width: 1000px;
+  font-size: 20px;
+}
+
+#parallax { /*this sections creates the parallax effect when you scroll up and the image slides up*/
+    background-image: url('img/background.jpg');
+    height: 100%;
+    background-attachment: fixed; /*these centre the background image and puts it into place*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 1000px;
+}
+
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 5px;
+
+}
+
+li {
+  display: inline;
+
+}
+
+nav{
+  line-height: 30px;
+  padding: 30px;
+  min-width: 1000px;
+  text-align: right;
+}
+
+a:link, a:visited {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#text {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #AC3B61;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+div.gallery {
+    padding: 25px;
+    float: left; /*the direction the boxes goes*/
+    margin: 20px;
+    border: 2px solid white;
+    width: 400px;
+}
